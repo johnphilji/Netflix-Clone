@@ -16,6 +16,8 @@
                 <option>English</option>
                 <option>हिन्दी</option>
             </select>
+            <!-- Feature 3: Theme Toggle Button -->
+            <button class="theme-toggle" id="themeToggle" title="Toggle Light/Dark Mode">☀️</button>
             <button class="btn-signin">Sign In</button>
         </div>
     </header>
@@ -69,21 +71,29 @@
             <div class="reason-card">
                 <h3>Enjoy on your TV</h3>
                 <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                <p class="reason-extra" style="display: none;">Experience your favorite content on the biggest screen with stunning picture quality and immersive sound.</p>
+                <button class="read-more-btn">Read More</button>
                 <div class="reason-icon">📺</div>
             </div>
             <div class="reason-card">
                 <h3>Download your shows to watch offline</h3>
                 <p>Save your favourites easily and always have something to watch.</p>
+                <p class="reason-extra" style="display: none;">Download your favorite shows and movies to watch on the go, even without an internet connection.</p>
+                <button class="read-more-btn">Read More</button>
                 <div class="reason-icon">📥</div>
             </div>
             <div class="reason-card">
                 <h3>Watch everywhere</h3>
                 <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                <p class="reason-extra" style="display: none;">Seamlessly switch between your devices and watch your content whenever and wherever you want.</p>
+                <button class="read-more-btn">Read More</button>
                 <div class="reason-icon">📱</div>
             </div>
             <div class="reason-card">
                 <h3>Create profiles for kids</h3>
                 <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+                <p class="reason-extra" style="display: none;">Keep your kids safe with parental controls and age-appropriate content recommendations.</p>
+                <button class="read-more-btn">Read More</button>
                 <div class="reason-icon">🧒</div>
             </div>
         </div>
@@ -214,5 +224,8 @@
             slider.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
         }
     </script>
+    
+    <!-- External JavaScript File for Features 3, 4, 6, 7 -->
+    <script src="script.js"></script>
 </body>
 </html>
